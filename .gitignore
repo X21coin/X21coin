@@ -1,0 +1,14 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+.env
+.env.example
+web/
+docs/
+test/
+scripts/
+.DS_Store
+package-lock.json

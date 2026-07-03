@@ -1,0 +1,27 @@
+{
+  "name": "x21-contracts",
+  "version": "0.1.0",
+  "description": "X21 — bonding curve token",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X21coin/X21.git"
+  },
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:fork": "hardhat run scripts/fork-mainnet.js",
+    "deploy:local": "hardhat run scripts/deploy-and-export.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^17.4.2",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@prb/math": "^4.1.0"
+  }
+}

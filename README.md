@@ -1,5 +1,5 @@
 # X21
-
+Site: [https://x21.site/]
 GitHub: [https://github.com/X21coin/X21](https://github.com/X21coin/X21)
 
 X21 is a decentralized bonding-curve token experiment. The protocol mints and burns X21 through an on-chain exponential curve, keeps reserve assets in USDS/sUSDS, and exposes a static React dapp that reads contract state and trade events directly from the chain.
